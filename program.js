@@ -62,17 +62,35 @@
 
 
 
-const side1 = parseInt(prompt('Enter side1'));
-const side2 = parseInt(prompt('Enter side2'));
-const side3 = parseInt(prompt('Enter side3'));
+// const side1 = parseInt(prompt('Enter side1'));
+// const side2 = parseInt(prompt('Enter side2'));
+// const side3 = parseInt(prompt('Enter side3'));
 
-const s = (side1 + side2 + side3) / 2;
+// const s = (side1 + side2 + side3) / 2;
 
-const area = Math.sqrt(
-    s * (s - side1) * (s - side2) * (s - side3)
-);
+// const area = Math.sqrt(
+//     s * (s - side1) * (s - side2) * (s - side3)
+// );
+// console.log(`The area of the traingle is ${area}`);
 
 
 
-console.log(`The area of the traingle is ${area}`);
+
+
+
+
+
+let a = prompt('Enter first variable');
+let b = prompt('Enter second variable');
+
+let temp;
+temp = a;
+a = b;
+b = temp;
+
+console.log(`The value of a after swapping is ${a}`);
+console.log(`The value of b after swapping is ${b}`);
+
+
+
 
