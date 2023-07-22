@@ -96,13 +96,26 @@
 
 
 
-let a = prompt('Enter first variable');
-let b = prompt('Enter second variable');
+// let a = prompt('Enter first variable');
+// let b = prompt('Enter second variable');
 
-[a, b] = [b, a]
+// [a, b] = [b, a]
 
-console.log(`The value of a after swapping is ${a}`);
-console.log(`The value of b after swapping is ${b}`);
+// console.log(`The value of a after swapping is ${a}`);
+// console.log(`The value of b after swapping is ${b}`);
+
+
+
+
+
+
+const kilometers = prompt("Enter the value in kilometers");
+
+const factor = 0.621371;
+
+const miles = kilometers * factor;
+
+console.log(`${kilometers} is equals to ${miles}`);
 
  
 
