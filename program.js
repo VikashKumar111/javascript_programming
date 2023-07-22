@@ -109,13 +109,21 @@
 
 
 
-const kilometers = prompt("Enter the value in kilometers");
+// const kilometers = prompt("Enter the value in kilometers");
 
-const factor = 0.621371;
+// const factor = 0.621371;
 
-const miles = kilometers * factor;
+// const miles = kilometers * factor;
 
-console.log(`${kilometers} is equals to ${miles}`);
+// console.log(`${kilometers} is equals to ${miles}`);
+
+
+
+
+const celsius = prompt("Enter the value in celsius");
+
+fahrenheit = (celsius * 1.8) + 32;
+console.log(` The value of ${celsius} is equals to ${fahrenheit} degree`);
 
  
 
