@@ -129,27 +129,61 @@
 
 
 
-const a = 5;
-console.log(a);
+// const a = 5;
+// console.log(a);
 
 
-{
-    const a = 50;
-    console.log(a);
+// {
+//     const a = 50;
+//     console.log(a);
+// }
+
+// console.log(a);
+
+
+// const arr = ['work', 'exercise', 'eat'];
+// console.log(arr);
+
+// arr[3] = 'hello';
+// console.log(arr);
+
+// a = 8;
+
+// const x;
+
+
+
+
+
+
+
+console.log(8);
+
+
+console.log('hello');
+
+const x = 'hello';
+
+console.log(x);
+
+
+function sayName() {
+    return 'Hello Vikash';
+}
+console.log(sayName);
+console.log(sayName());
+
+const name = 'Vikash';
+
+console.log('hello' + name);
+
+
+let obj = {
+    name: 'john',
+    age: 28
 }
 
-console.log(a);
-
-
-const arr = ['work', 'exercise', 'eat'];
-console.log(arr);
-
-arr[3] = 'hello';
-console.log(arr);
-
-a = 8;
-
-const x;
+console.log(obj);
 
  
 
