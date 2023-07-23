@@ -157,38 +157,55 @@
 
 
 
-console.log(8);
+// console.log(8);
 
 
-console.log('hello');
+// console.log('hello');
 
-const x = 'hello';
+// const x = 'hello';
 
-console.log(x);
-
-
-function sayName() {
-    return 'Hello Vikash';
-}
-console.log(sayName);
-console.log(sayName());
-
-const name = 'Vikash';
-
-console.log('hello' + name);
+// console.log(x);
 
 
-let obj = {
-    name: 'john',
-    age: 28
-}
+// function sayName() {
+//     return 'Hello Vikash';
+// }
+// console.log(sayName);
+// console.log(sayName());
 
-console.log(obj);
+// const name = 'Vikash';
+
+// console.log('hello' + name);
+
+
+// let obj = {
+//     name: 'john',
+//     age: 28
+// }
+
+// console.log(obj);
 
  
 
 
 
+let root1, root2;
+
+let a = prompt("Enter the first number");
+let b = prompt("Enter the second number");
+let c = prompt("Enter the third number");
+
+let discriminant = (b * b) - 4 * a * c; 
+
+if (discriminant > 0) {
+    root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+    root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+    console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
+}
+else if (discriminant == 0) {
+    root1 = root2 = -b / (2 * a);
+    console.log(`The rrots of the quadratic equation are ${root1} and ${root2}`);
+ }
 
 
 
