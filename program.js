@@ -210,15 +210,29 @@
 
 
 
+// const number = parseInt(prompt("Enter the number"));
+
+// if (number >0) {
+//     console.log("Number is positive");
+// }
+// else if (number == 0) {
+//     console.log("Number is zero");
+// }
+// else  {
+//     console.log("Number is negative")
+// }
+
+
+
 const number = parseInt(prompt("Enter the number"));
 
-if (number >0) {
-    console.log("Number is positive");
+if (number >= 0) {
+    if (number == 0) {
+        console.log("Number is zero");
+    } else {
+        console.log("NUmber is positive");
+    }
 }
-else if (number == 0) {
-    console.log("Number is zero");
+else {
+    console.log("Number is negative");
 }
-else  {
-    console.log("Number is negative")
-}
-
