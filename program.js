@@ -224,15 +224,15 @@
 
 
 
-const number = parseInt(prompt("Enter the number"));
+// const number = parseInt(prompt("Enter the number"));
 
-if (number >= 0) {
-    if (number == 0) {
-        console.log("Number is zero");
-    } else {
-        console.log("NUmber is positive");
-    }
-}
-else {
-    console.log("Number is negative");
-}
+// if (number >= 0) {
+//     if (number == 0) {
+//         console.log("Number is zero");
+//     } else {
+//         console.log("NUmber is positive");
+//     }
+// }
+// else {
+//     console.log("Number is negative");
+// }
