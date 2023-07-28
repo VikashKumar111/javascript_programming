@@ -40,15 +40,24 @@
 // }
  
 
-const array = ['you', 'will', 'learn', 'javascript'];
-const hasvalue = array.indexOf('javascript') !== -1;
+// const array = ['you', 'will', 'learn', 'javascript'];
+// const hasvalue = array.indexOf('javascript') !== -1;
 
-if (hasvalue) {
-    console.log('array contains a value');
-} else {
-    console.log('array does not contains a value');
-}
+// if (hasvalue) {
+//     console.log('array contains a value');
+// } else {
+//     console.log('array does not contains a value');
+// }
  
 
+function insertElement() {
+    let array = [1, 2, 3, 4, 5, 6];
+    let index = 3;
+    let element = 8;
+    array.splice(index, 0, element);
+    console.log(array);
+}
+
+insertElement();
 
 
