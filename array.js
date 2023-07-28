@@ -29,10 +29,26 @@
 // console.log(result);
 
 
+//
+
+// const array = ['you', 'will', 'learn', 'javascript'];
+// const hasvalue = array.includes('javascript');
+// if (hasvalue) {
+//     console.log('array contains a value');
+// } else {
+//     console.log('array does not contains a value');
+// }
+ 
+
 const array = ['you', 'will', 'learn', 'javascript'];
-const hasvalue = array.includes('javascript');
+const hasvalue = array.indexOf('javascript') !== -1;
+
 if (hasvalue) {
     console.log('array contains a value');
 } else {
     console.log('array does not contains a value');
- }
+}
+ 
+
+
+
