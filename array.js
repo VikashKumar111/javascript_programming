@@ -89,11 +89,27 @@
 
 
 
-function insertObject(arr, obj) {
-    arr = [...arr, obj];
-    console.log(arr);
+// function insertObject(arr, obj) {
+//     arr = [...arr, obj];
+//     console.log(arr);
+// }
+
+// let array = [1, 2, 3, 4, 5, 6, 7];
+// let object = { x: 188, y: 987 };
+// insertObject(array, object);
+
+
+
+
+function checkObject(arr) {
+    const result = Array.isArray(arr);
+    if (result) {
+        console.log(`[${arr}] is an array`);
+    } else {
+        console.log(`${arr} is not an array`);
+    }
 }
 
-let array = [1, 2, 3, 4, 5, 6, 7];
-let object = { x: 188, y: 987 };
-insertObject(array, object);
+
+let array =  [1, 2, 3, 4, 5, 6, 7, 8, 9];
+checkObject(array);
