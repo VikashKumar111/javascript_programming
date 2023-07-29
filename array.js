@@ -75,14 +75,25 @@
 
 
 
+// function insertObject(arr, obj) {
+//     let index = arr.length;
+//     arr.splice(index, 0, obj);
+//     console.log(arr);
+// }
+
+// let array = [1, 2, 3, 4, 5, 6];
+// let object = { x: 122, y: 333 };
+
+// insertObject(array, object);
+
+
+
+
 function insertObject(arr, obj) {
-    let index = arr.length;
-    arr.splice(index, 0, obj);
+    arr = [...arr, obj];
     console.log(arr);
 }
 
-let array = [1, 2, 3, 4, 5, 6];
-let object = { x: 122, y: 333 };
-
+let array = [1, 2, 3, 4, 5, 6, 7];
+let object = { x: 188, y: 987 };
 insertObject(array, object);
-
