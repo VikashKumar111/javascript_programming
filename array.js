@@ -141,13 +141,35 @@
 // console.log(result);
 
 
+// function emptyArray(arr) {
+//     arr.splice(0, arr.length);
+//     return arr;
+// }
+
+// const array = [2, 4, 6, 7, 8, 4, 3];
+// console.log(array);
+
+// const result = emptyArray(array);
+// console.log(result);
+
+
+// function emptyArray(arr) {
+//     arr.splice(0, arr.length);
+//     return arr;
+// }
+// const array = [3, 4, 6, 7, 8, 9, 1, 2];
+// console.log(array);
+// const result = emptyArray(array);
+// console.log(result);
+
+
+
 function emptyArray(arr) {
-    arr.splice(0, arr.length);
+    arr.length = 0;
     return arr;
 }
 
-const array = [2, 4, 6, 7, 8, 4, 3];
+const array = [2, 4, 6, 5, 3, 2, 1, 3, 2]
 console.log(array);
-
 const result = emptyArray(array);
 console.log(result);
