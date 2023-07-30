@@ -189,15 +189,33 @@
 
 
 
+// function addElement(arr) {
+//     arr.unshift(4);
+//     console.log(arr);
+// }
+
+// const array = [2, 4, 5, 6];
+// addElement(array);
+
+
+
+
+// function addElement(arr) {
+//     arr.unshift(4);
+//     console.log(arr);
+// }
+// const array = [2, 4, 5, 6];
+// addElement(array);
+
+
+
+
 function addElement(arr) {
-    arr.unshift(4);
+    arr.splice(0, 0, 4);
     console.log(arr);
 }
 
-const array = [2, 4, 5, 6];
+const array = [4, 6, 9];
 addElement(array);
-
-
-
 
 
