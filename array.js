@@ -101,15 +101,28 @@
 
 
 
-function checkObject(arr) {
-    const result = Array.isArray(arr);
-    if (result) {
-        console.log(`[${arr}] is an array`);
-    } else {
-        console.log(`${arr} is not an array`);
-    }
+// function checkObject(arr) {
+//     const result = Array.isArray(arr);
+//     if (result) {
+//         console.log(`[${arr}] is an array`);
+//     } else {
+//         console.log(`${arr} is not an array`);
+//     }
+// }
+
+
+// let array =  [1, 2, 3, 4, 5, 6, 7];
+// let array = { x: 188, y: 987 };
+// checkObject(array);
+
+
+
+function emptyArray(arr) {
+    arr = [];
+    return arr;
 }
+const array = [1, 2, 3, 4, 5];
+console.log(array);
+const result = emptyArray(array);
 
-
-let array =  [1, 2, 3, 4, 5, 6, 7, 8, 9];
-checkObject(array);
+console.log(result);
