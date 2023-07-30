@@ -210,12 +210,22 @@
 
 
 
+// function addElement(arr) {
+//     arr.splice(0, 0, 4);
+//     console.log(arr);
+// }
+
+// const array = [4, 6, 9];
+// addElement(array);
+
+
+
 function addElement(arr) {
-    arr.splice(0, 0, 4);
+    arr = [4, ...arr];
     console.log(arr);
 }
 
-const array = [4, 6, 9];
+const array = [3, 4, 5, 6, 7];
 addElement(array);
 
 
