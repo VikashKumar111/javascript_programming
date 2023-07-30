@@ -164,12 +164,40 @@
 
 
 
-function emptyArray(arr) {
-    arr.length = 0;
-    return arr;
+// function emptyArray(arr) {
+//     arr.length = 0;
+//     return arr;
+// }
+
+// const array = [2, 4, 6, 5, 3, 2, 1, 3, 2]
+// console.log(array);
+// const result = emptyArray(array);
+// console.log(result);
+
+
+
+
+// function emptyArray(arr) {
+//     arr.length = 0;
+//     return arr;
+// }
+
+// const array = [2, 4, 6, 5, 3, 2, 1, 3, 2]
+// console.log(array);
+// const result = emptyArray(array);
+// console.log(result);
+
+
+
+function addElement(arr) {
+    arr.unshift(4);
+    console.log(arr);
 }
 
-const array = [2, 4, 6, 5, 3, 2, 1, 3, 2]
-console.log(array);
-const result = emptyArray(array);
-console.log(result);
+const array = [2, 4, 5, 6];
+addElement(array);
+
+
+
+
+
