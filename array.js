@@ -220,12 +220,23 @@
 
 
 
+// function addElement(arr) {
+//     arr = [4, ...arr];
+//     console.log(arr);
+// }
+
+// const array = [3, 4, 5, 6, 7];
+// addElement(array);
+
+
+
+
 function addElement(arr) {
-    arr = [4, ...arr];
+    arr = [4].concat(arr);
+
     console.log(arr);
 }
 
-const array = [3, 4, 5, 6, 7];
+array = [1, 2, 3, 4, 5, 6];
 addElement(array);
-
 
