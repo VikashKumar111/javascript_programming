@@ -241,15 +241,28 @@
 // addElement(array);
 
 
+// function getUnique(arr) {
+//     let uniqueArr = [];
+//     for (let i of arr) {
+//         if (uniqueArr.indexOf(i) === -1) {
+//             uniqueArr.push(i);
+//         }
+//     }
+//     console.log(uniqueArr);
+// }
+
+// const array = [2, 5, 8, 9, 5, 9, 6, 2, 1];
+// getUnique(array);
+
+
+
+
 function getUnique(arr) {
-    let uniqueArr = [];
-    for (let i of arr) {
-        if (uniqueArr.indexOf(i) === -1) {
-            uniqueArr.push(i);
-        }
-    }
+    let uniqueArr = [...new Set(arr)];
+
     console.log(uniqueArr);
 }
 
-const array = [2, 5, 8, 9, 5, 9, 6, 2, 1];
+const array = [2, 2, 4, 4, 6, 7, 8, 9, 1, 1, 0];
+
 getUnique(array);
