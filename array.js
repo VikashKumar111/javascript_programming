@@ -231,12 +231,25 @@
 
 
 
-function addElement(arr) {
-    arr = [4].concat(arr);
+// function addElement(arr) {
+//     arr = [4].concat(arr);
 
-    console.log(arr);
+//     console.log(arr);
+// }
+
+// array = [1, 2, 3, 4, 5, 6];
+// addElement(array);
+
+
+function getUnique(arr) {
+    let uniqueArr = [];
+    for (let i of arr) {
+        if (uniqueArr.indexOf(i) === -1) {
+            uniqueArr.push(i);
+        }
+    }
+    console.log(uniqueArr);
 }
 
-array = [1, 2, 3, 4, 5, 6];
-addElement(array);
-
+const array = [2, 5, 8, 9, 5, 9, 6, 2, 1];
+getUnique(array);
