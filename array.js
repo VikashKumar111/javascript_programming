@@ -288,16 +288,34 @@
 
 
 
-function getUniqueAfterMerge(arr1, arr2) {
-    let arr = [...arr1, ...arr2];
+// function getUniqueAfterMerge(arr1, arr2) {
+//     let arr = [...arr1, ...arr2];
      
-    let uniqueArr = [...new Set(arr)];
+//     let uniqueArr = [...new Set(arr)];
 
-    console.log(uniqueArr);
+//     console.log(uniqueArr);
 
+// }
+
+// const array1 = [1, 2, 4, 6, 8, 9, 5];
+// const array2 = [2, 6, 4, 9, 6, 5, 2, 0];
+
+// getUniqueAfterMerge(array1, array2);
+
+
+
+
+
+function removeItemFromArray(array, n) {
+    const newArray = [];
+    for (let i = 0; i < array.length; i++){
+        if (array[i] != n) {
+            newArray.push(array[i]);
+        }
+
+    }
+    return newArray;
 }
 
-const array1 = [1, 2, 4, 6, 8, 9, 5];
-const array2 = [2, 6, 4, 9, 6, 5, 2, 0];
-
-getUniqueAfterMerge(array1, array2);
+const result = removeItemFromArray([2, 34, 5, 6, 67], 67);
+console.log(result);
