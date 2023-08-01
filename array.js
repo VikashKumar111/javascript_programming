@@ -322,14 +322,25 @@
 
 
 
-function removeItemFromArray(array, n) {
-    const index = array.indexOf(n);
+// function removeItemFromArray(array, n) {
+//     const index = array.indexOf(n);
 
-    if (index > -1) {
-        array.splice(index, 1);
-    }
-    return array;
+//     if (index > -1) {
+//         array.splice(index, 1);
+//     }
+//     return array;
+// }
+
+// const result = removeItemFromArray([2, 4, 6, 7, 3, 1], 4);
+// console.log(result);
+
+
+
+const array = ['you', 'will', 'learn', 'javascript'];
+const hasvalue = array.includes('learn');
+
+if (hasvalue) {
+    console.log('array contains this value');
+} else {
+    console.log('array does not contain value');
 }
-
-const result = removeItemFromArray([2, 4, 6, 7, 3, 1], 4);
-console.log(result);
