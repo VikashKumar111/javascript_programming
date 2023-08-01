@@ -306,16 +306,30 @@
 
 
 
-function removeItemFromArray(array, n) {
-    const newArray = [];
-    for (let i = 0; i < array.length; i++){
-        if (array[i] != n) {
-            newArray.push(array[i]);
-        }
+// function removeItemFromArray(array, n) {
+//     const newArray = [];
+//     for (let i = 0; i < array.length; i++){
+//         if (array[i] != n) {
+//             newArray.push(array[i]);
+//         }
 
+//     }
+//     return newArray;
+// }
+
+// const result = removeItemFromArray([2, 34, 5, 6, 67], 67);
+// console.log(result);
+
+
+
+function removeItemFromArray(array, n) {
+    const index = array.indexOf(n);
+
+    if (index > -1) {
+        array.splice(index, 1);
     }
-    return newArray;
+    return array;
 }
 
-const result = removeItemFromArray([2, 34, 5, 6, 67], 67);
+const result = removeItemFromArray([2, 4, 6, 7, 3, 1], 4);
 console.log(result);
