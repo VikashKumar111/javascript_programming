@@ -336,11 +336,26 @@
 
 
 
-const array = ['you', 'will', 'learn', 'javascript'];
-const hasvalue = array.includes('learn');
+// const array = ['you', 'will', 'learn', 'javascript'];
+// // const hasvalue = array.includes('earn');
+// const hasvalue = array.includes('ram');
 
-if (hasvalue) {
-    console.log('array contains this value');
-} else {
-    console.log('array does not contain value');
+// if (hasvalue) {
+//     console.log('array contains this value');
+// } else {
+//     console.log('array does not contain value');
+// }
+
+
+
+function sum(num) {
+    if (num > 0) {
+        return num + sum(num - 1);
+    } else {
+        return num;
+    }
 }
+
+const number = parseInt(prompt('Enter a positive integer'));
+const result = sum(number);
+console.log(result);
