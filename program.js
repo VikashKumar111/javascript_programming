@@ -167,23 +167,23 @@
 // console.log(x);
 
 
-function sayName() {
-    return 'Hello Vikash';
-}
-console.log(sayName);
-console.log(sayName());
-
-const name = 'Vikash';
-
-console.log('hello' + name);
-
-
-// let obj = {
-//     name: 'john',
-//     age: 28
+// function sayName() {
+//     return 'Hello Vikash';
 // }
+// console.log(sayName);
+// console.log(sayName());
 
-// console.log(obj);
+// const name = 'Vikash';
+
+// console.log('hello' + name);
+
+
+let obj = {
+    name: 'john',
+    age: 28
+}
+
+console.log(obj);
 
  
 
