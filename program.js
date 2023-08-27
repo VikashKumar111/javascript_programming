@@ -167,15 +167,15 @@
 // console.log(x);
 
 
-// function sayName() {
-//     return 'Hello Vikash';
-// }
-// console.log(sayName);
-// console.log(sayName());
+function sayName() {
+    return 'Hello Vikash';
+}
+console.log(sayName);
+console.log(sayName());
 
-// const name = 'Vikash';
+const name = 'Vikash';
 
-// console.log('hello' + name);
+console.log('hello' + name);
 
 
 // let obj = {
@@ -240,19 +240,19 @@
 
 
 
- function factorial(x) {
-    if (x == 0) {
-        return 1;
-    } else {
-        return x * factorial(x - 1);
-    }
-}
+//  function factorial(x) {
+//     if (x == 0) {
+//         return 1;
+//     } else {
+//         return x * factorial(x - 1);
+//     }
+// }
 
-const num = prompt('Enter positive number');
-if (num >= 0) {
-    const result = factorial(num);
-    console.log(`The factorial of${num}is ${result}`);
-} else {
-    console.log('Enter positive number');
-}
+// const num = prompt('Enter positive number');
+// if (num >= 0) {
+//     const result = factorial(num);
+//     console.log(`The factorial of${num}is ${result}`);
+// } else {
+//     console.log('Enter positive number');
+// }
 
