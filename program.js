@@ -81,28 +81,28 @@
 
 
 
-let a = prompt('Enter first variable');
-let b = prompt('Enter second variable');
-
-let temp;
-temp = a;
-a = b;
-b = temp;
-
-console.log(`The value of a after swapping is ${a}`);
-console.log(`The value of b after swapping is ${b}`);
-
-
-
-
-
 // let a = prompt('Enter first variable');
 // let b = prompt('Enter second variable');
 
-// [a, b] = [b, a]
+// let temp;
+// temp = a;
+// a = b;
+// b = temp;
 
 // console.log(`The value of a after swapping is ${a}`);
 // console.log(`The value of b after swapping is ${b}`);
+
+
+
+
+
+let a = prompt('Enter first variable');
+let b = prompt('Enter second variable');
+
+[a, b] = [b, a]
+
+console.log(`The value of a after swapping is ${a}`);
+console.log(`The value of b after swapping is ${b}`);
 
 
 
