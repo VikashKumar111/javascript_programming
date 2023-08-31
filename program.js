@@ -23,12 +23,12 @@
 
 
 
-const num1 = parseInt(prompt('enter the first number'));
-const num2 = parseInt(prompt('enter the second number'));
+// const num1 = parseInt(prompt('enter the first number'));
+// const num2 = parseInt(prompt('enter the second number'));
 
-const sum = num1 + num2;
+// const sum = num1 + num2;
 
-console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+// console.log(`The sum of ${num1} and ${num2} is ${sum}`);
 
 
 
@@ -81,16 +81,16 @@ console.log(`The sum of ${num1} and ${num2} is ${sum}`);
 
 
 
-// let a = prompt('Enter first variable');
-// let b = prompt('Enter second variable');
+let a = prompt('Enter first variable');
+let b = prompt('Enter second variable');
 
-// let temp;
-// temp = a;
-// a = b;
-// b = temp;
+let temp;
+temp = a;
+a = b;
+b = temp;
 
-// console.log(`The value of a after swapping is ${a}`);
-// console.log(`The value of b after swapping is ${b}`);
+console.log(`The value of a after swapping is ${a}`);
+console.log(`The value of b after swapping is ${b}`);
 
 
 
