@@ -120,10 +120,10 @@
 
 
 
-// const celsius = prompt("Enter the value in celsius");
+const celsius = prompt("Enter the value in celsius");
 
-// fahrenheit = (celsius * 1.8) + 32;
-// console.log(` The value of ${celsius} is equals to ${fahrenheit} degree`);
+fahrenheit = (celsius * 1.8) + 32;
+console.log(` The value of ${celsius} is equals to ${fahrenheit} degree`);
 
 
 
