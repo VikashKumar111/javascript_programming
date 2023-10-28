@@ -120,10 +120,10 @@
 
 
 
-const celsius = prompt("Enter the value in celsius");
+// const celsius = prompt("Enter the value in celsius");
 
-fahrenheit = (celsius * 1.8) + 32;
-console.log(` The value of ${celsius} is equals to ${fahrenheit} degree`);
+// fahrenheit = (celsius * 1.8) + 32;
+// console.log(` The value of ${celsius} is equals to ${fahrenheit} degree`);
 
 
 
@@ -157,14 +157,14 @@ console.log(` The value of ${celsius} is equals to ${fahrenheit} degree`);
 
 
 
-// console.log(8);
+console.log(8);
 
 
-// console.log('hello');
+console.log('hello');
 
-// const x = 'hello';
+const x = 'hello';
 
-// console.log(x);
+console.log(x);
 
 
 // function sayName() {
