@@ -336,15 +336,15 @@
 
 
 
-// const array = ['you', 'will', 'learn', 'javascript'];
-// // const hasvalue = array.includes('earn');
-// const hasvalue = array.includes('ram');
+const array = ['you', 'will', 'learn', 'javascript'];
+// const hasvalue = array.includes('earn');
+const hasvalue = array.includes('ram');
 
-// if (hasvalue) {
-//     console.log('array contains this value');
-// } else {
-//     console.log('array does not contain value');
-// }
+if (hasvalue) {
+    console.log('array contains this value');
+} else {
+    console.log('array does not contain value');
+}
 
 
 
