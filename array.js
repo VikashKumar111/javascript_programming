@@ -269,21 +269,21 @@
 
 
 
-// function getUniqueAfterMerge(arr1, arr2) {
-//     let arr = arr1.concat(arr2);
-//     let uniqueArr = [];
+function getUniqueAfterMerge(arr1, arr2) {
+    let arr = arr1.concat(arr2);
+    let uniqueArr = [];
 
-//     for (let i of arr) {
-//         if (uniqueArr.indexOf(i) === -1) {
-//             uniqueArr.push(i);
-//       }
-//     }
-//     console.log(uniqueArr);
-// }
+    for (let i of arr) {
+        if (uniqueArr.indexOf(i) === -1) {
+            uniqueArr.push(i);
+      }
+    }
+    console.log(uniqueArr);
+}
 
-// const array1 = [1, 2, 4, 5, 8, 9];
-// const array2 = [1, 3, 7, 8, 9, 5, 6, 2];
-// getUniqueAfterMerge(array1, array2);
+const array1 = [1, 2, 4, 5, 8, 9];
+const array2 = [1, 3, 7, 8, 9, 5, 6, 2];
+getUniqueAfterMerge(array1, array2);
 
 
 
@@ -336,15 +336,15 @@
 
 
 
-const array = ['you', 'will', 'learn', 'javascript'];
-// const hasvalue = array.includes('earn');
-const hasvalue = array.includes('ram');
+// const array = ['you', 'will', 'learn', 'javascript'];
+// // const hasvalue = array.includes('earn');
+// const hasvalue = array.includes('ram');
 
-if (hasvalue) {
-    console.log('array contains this value');
-} else {
-    console.log('array does not contain value');
-}
+// if (hasvalue) {
+//     console.log('array contains this value');
+// } else {
+//     console.log('array does not contain value');
+// }
 
 
 
