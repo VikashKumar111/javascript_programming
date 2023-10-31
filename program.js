@@ -157,14 +157,14 @@
 
 
 
-console.log(8);
+// console.log(8);
 
 
-console.log('hello');
+// console.log('hello');
 
-const x = 'hello';
+// const x = 'hello';
 
-console.log(x);
+// console.log(x);
 
 
 // function sayName() {
