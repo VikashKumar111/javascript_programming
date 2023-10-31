@@ -8,3 +8,7 @@ function checkPalindrome(string) {
     }
     return 'It is Palindrome';
 }
+const string = prompt('Enter a string:');
+
+const value = checkPalindrome(string);
+console.log(value);
