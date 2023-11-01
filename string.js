@@ -57,14 +57,25 @@
 
 
 
-function reverseString(str) {
-    const arrayString = str.split("");
-    const reverseArray = arrayString.reverse();
-    const joinArray = reverseArray.join("");
-    return joinArray;
+// function reverseString(str) {
+//     const arrayString = str.split("");
+//     const reverseArray = arrayString.reverse();
+//     const joinArray = reverseArray.join("");
+//     return joinArray;
+// }
+
+// const string = prompt('Enter a string: ');
+
+// const result = reverseString(string);
+// console.log(result);
+
+
+function countString(str, letter) {
+    let count = 0;
+    for (let i = 0; i < str.length; i++){
+        if (str.chatAt(i) == letter) {
+            count += 1;
+        }
+    }
+    return count;
 }
-
-const string = prompt('Enter a string: ');
-
-const result = reverseString(string);
-console.log(result);
