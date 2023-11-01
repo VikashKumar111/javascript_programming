@@ -79,3 +79,9 @@ function countString(str, letter) {
     }
     return count;
 }
+
+
+const string = prompt('Enter a string: ');
+const letterToCheck = prompt('Enter a letter to check: ');
+const result = countString(string, letterToCheck);
+console.log(result);
