@@ -41,16 +41,30 @@
 // }
 
 
+// function reverseString(str) {
+//     let newString = "";
+//     for (let i = string.length - 1; i >= 0; i--){
+//         newString += str[i];
+//     }
+//     return newString;
+// }
+
+// const string = prompt('Enter a string: ');
+
+// const result = reverseString(string);
+
+// console.log(result);
+
+
+
 function reverseString(str) {
-    let newString = "";
-    for (let i = string.length - 1; i >= 0; i--){
-        newString += str[i];
-    }
-    return newString;
+    const arrayString = str.split("");
+    const reverseArray = arrayString.reverse();
+    const joinArray = reverseArray.join("");
+    return joinArray;
 }
 
 const string = prompt('Enter a string: ');
 
 const result = reverseString(string);
-
 console.log(result);
