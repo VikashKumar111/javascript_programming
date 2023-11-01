@@ -32,10 +32,19 @@
 
 
 
-const string = prompt('Enter a sentence: ');
-const words = string.split(' ');
-words.sort();
-console.log('The sorted words are:');
-for (const element of words) {
-    console.log(element);
+// const string = prompt('Enter a sentence: ');
+// const words = string.split(' ');
+// words.sort();
+// console.log('The sorted words are:');
+// for (const element of words) {
+//     console.log(element);
+// }
+
+
+function reverseString(str) {
+    let newString = "";
+    for (let i = string.length - 1; i >= 0; i--){
+        newString += str[i];
+    }
+    return newString;
 }
