@@ -123,11 +123,29 @@
 // console.log(result);
 
 
-function countVowel(str) {
-    const count = str.match(/[aeiou]/gi).length;
-    return count;
-}
+// function countVowel(str) {
+//     const count = str.match(/[aeiou]/gi).length;
+//     return count;
+// }
 
-const string = prompt('Enter a string: ');
-const result = countVowel(string);
-console.log(result);
+// const string = prompt('Enter a string: ');
+// const result = countVowel(string);
+// console.log(result);
+
+
+
+// const vowel = ["a", "e", "i", "o", "u"];
+
+// function countVowel(str) {
+//     let count = 0;
+//     for (let letter of str.toLowerCase()) {
+//         if (vowel.includes(letter)) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// const string = prompt('Enter a string: ');
+// const result = countVowel(string);
+// console.log(result);
