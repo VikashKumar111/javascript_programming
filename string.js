@@ -89,13 +89,24 @@
 
 
 
-function countString(str, letter) {
-    const re = new RegExp(letter, 'g');
-    const count = str.match(re).length;
-    return count;
+// function countString(str, letter) {
+//     const re = new RegExp(letter, 'g');
+//     const count = str.match(re).length;
+//     return count;
+// }
+
+// const string = prompt('Enter a string: ');
+// const letterToCheck = prompt('Enter a letter to check: ');
+// const result = countString(string, letterToCheck);
+// console.log(result);
+
+
+
+function capitalizeFirstLetter(str) {
+    const capitalized = str.charAt(0).toUpperCase() + str.slice(1);
+    return capitalized;
 }
 
 const string = prompt('Enter a string: ');
-const letterToCheck = prompt('Enter a letter to check: ');
-const result = countString(string, letterToCheck);
+const result = capitalizeFirstLetter(string);
 console.log(result);
