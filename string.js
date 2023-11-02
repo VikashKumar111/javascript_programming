@@ -149,3 +149,20 @@
 // const string = prompt('Enter a string: ');
 // const result = countVowel(string);
 // console.log(result);
+
+
+function checkString(str) {
+    if (str.startsWith('S') && str.endsWith('G')) {
+        console.log('The string starts with S and ends with G');
+    } else if (str.startsWith('S')) {
+        console.log('The string starts with S but does not end with G');
+    } else if (str.endsWith('G')) {
+        console.log('The string ends with G but does not start with S');
+    } else {
+        console.log('The string doest not start with S and does not end with G');
+    }
+}
+
+const string = prompt('Enter the string');
+const result = checkString(string);
+console.log(result);
