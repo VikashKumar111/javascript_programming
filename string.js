@@ -102,8 +102,19 @@
 
 
 
+// function capitalizeFirstLetter(str) {
+//     const capitalized = str.charAt(0).toUpperCase() + str.slice(1);
+//     return capitalized;
+// }
+
+// const string = prompt('Enter a string: ');
+// const result = capitalizeFirstLetter(string);
+// console.log(result);
+
+
+
 function capitalizeFirstLetter(str) {
-    const capitalized = str.charAt(0).toUpperCase() + str.slice(1);
+    const capitalized = str.replace(/^./, str.[0].toUpperCase());
     return capitalized;
 }
 
