@@ -180,6 +180,9 @@ function checkString(str) {
     }
 }
 
-const string = prompt('enter the string');
-const result = checkString(string);
-console.log(result);
+for (let i = 0; i < 3; i++){
+    const string = prompt('enter the string');
+    checkString(string);
+}
+
+
