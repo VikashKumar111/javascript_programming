@@ -114,7 +114,7 @@
 
 
 function capitalizeFirstLetter(str) {
-    const capitalized = str.replace(/^./, str.[0].toUpperCase());
+    const capitalized = str.replace(/^./, str[0].toUpperCase());
     return capitalized;
 }
 
