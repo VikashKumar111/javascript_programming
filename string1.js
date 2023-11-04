@@ -168,21 +168,21 @@
 // console.log(result);
 
 
-function checkString(str) {
-    if (/^S/i.test(str) && /G$/i.test(str)) {
-        console.log('the string starts with S and ends with G');
-    } else if (/^S/i.test(str)) {
-        console.log('The string starts with S but does not end with G');
-    } else if (/G$/i.test(str)) {
-        console.log('the string ends with G but does not start with S');
-    } else {
-        console.log('the string neither starts with S nor ends with G');
-    }
-}
+// function checkString(str) {
+//     if (/^S/i.test(str) && /G$/i.test(str)) {
+//         console.log('the string starts with S and ends with G');
+//     } else if (/^S/i.test(str)) {
+//         console.log('The string starts with S but does not end with G');
+//     } else if (/G$/i.test(str)) {
+//         console.log('the string ends with G but does not start with S');
+//     } else {
+//         console.log('the string neither starts with S nor ends with G');
+//     }
+// }
 
-for (let i = 0; i < 3; i++){
-    const string = prompt('enter the string');
-    checkString(string);
-}
+// for (let i = 0; i < 3; i++){
+//     const string = prompt('enter the string');
+//     checkString(string);
+// }
 
 
